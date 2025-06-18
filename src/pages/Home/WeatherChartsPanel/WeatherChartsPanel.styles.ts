@@ -1,6 +1,6 @@
-import { Box, Paper, styled } from "@mui/material";
+import { Paper, styled } from "@mui/material";
 
-export const WeatherChartsPanelContainer = styled(Box)({
+export const WeatherChartsPanelContainer = styled("div")({
   display: "flex",
   gap: "1rem",
   flexDirection: "column",

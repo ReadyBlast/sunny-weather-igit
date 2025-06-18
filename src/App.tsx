@@ -6,13 +6,11 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 function App() {
   const queryClient = new QueryClient();
   return (
-    <>
       <ThemeLayout>
         <QueryClientProvider client={queryClient}>
           <AppRouter />
         </QueryClientProvider>
       </ThemeLayout>
-    </>
   );
 }
 
