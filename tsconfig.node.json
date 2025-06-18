@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "target": "ES2022",
+    "lib": [
+      "ES2023"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": false,
+    "moduleDetection": "force",
+    "noEmit": true,
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "~app/*": [
+        "src/app/*"
+      ],
+      "~components/*": [
+        "src/components/*"
+      ],
+      "~features/*": [
+        "src/features/*"
+      ],
+      "~hooks/*": [
+        "src/hooks/*"
+      ],
+      "~pages/*": [
+        "src/pages/*"
+      ],
+      "~routes/*": [
+        "src/routes/*"
+      ],
+      "~services/*": [
+        "src/services/*"
+      ],
+      "~styles/*": [
+        "src/styles/*"
+      ],
+      "~utils/*": [
+        "src/utils/*"
+      ],
+      "~types/*": [
+        "src/types/*"
+      ],
+      "~themes/*": [
+        "src/themes/*"
+      ],
+      "~shared/*": [
+        "src/shared/*"
+      ]
+    }
+  },
+  "include": [
+    "vite.config.ts"
+  ]
+}
