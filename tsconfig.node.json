@@ -20,7 +20,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "baseUrl": null,
+    "baseUrl": "./",
     "paths": {
       "~app/*": [
         "src/app/*"
