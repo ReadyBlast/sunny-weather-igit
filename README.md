@@ -31,3 +31,11 @@
 git clone https://github.com/ReadyBlast/sunny-weather-igit.git
 cd sunny-weather-igit
 npm install
+```
+
+#### Для корректной работы приложения необходимо создать .env файл
+
+```dotenv
+    VITE_API_KEY=your_api_key
+    VITE_API_URL=base_api_url
+```
